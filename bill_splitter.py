@@ -5,27 +5,27 @@
 # ============================================
 
 # Number of friends splitting the bill
-running_total = 0
-num_of_friends = 4
+bill_total = 0
+friend_count = 4
 
 # Individual bill items
-appetizers = 37.89
-main_courses = 57.34
-desserts = 39.39
-drinks = 64.21
+appetizer_cost = 37.89
+main_course_cost = 57.34
+dessert_cost = 39.39
+drink_cost = 64.21
 
 # Calculate total bill
-running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
+bill_total += appetizer_cost + main_course_cost + dessert_cost + drink_cost
+print('Total bill so far:', bill_total)
 
 # Calculate 25% tip
-tip = running_total * 0.25
-print('Tip amount:', tip)
+tip_amount = bill_total * 0.25
+print('Tip amount:', tip_amount)
 
 # Add tip to total
-running_total += tip
-print('Total with tip:', running_total)
+bill_total += tip_amount
+print('Total with tip:', bill_total)
 
 # Split bill among friends
-final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
+per_person = bill_total / friend_count
+print('Bill per person:', per_person)

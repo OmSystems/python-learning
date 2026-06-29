@@ -10,32 +10,32 @@ last_name = 'Doe'
 full_name = first_name + ' ' + last_name
 
 # String with += operator
-address = '123 Main Street'
-address += ', Apartment 4B'
+home_address = '123 Main Street'
+home_address += ', Apartment 4B'
 
 # Combining strings and integers
-employee_age = 28
-employee_info = full_name + ' is ' + str(employee_age) + ' years old'
-print(employee_info)
+emp_age = 28
+emp_info = full_name + ' is ' + str(emp_age) + ' years old'
+print(emp_info)
 
 # Experience info
-experience_years = 5
-experience_info = 'Experience: ' + str(experience_years) + ' years'
-print(experience_info)
+exp_years = 5
+exp_info = 'Experience: ' + str(exp_years) + ' years'
+print(exp_info)
 
 # F-string formatting
-position = 'Data Analyst'
-salary = 75000
-employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
-print(employee_card)
+job_position = 'Data Analyst'
+annual_salary = 75000
+emp_card = f'Employee: {full_name} | Age: {emp_age} | Position: {job_position} | Salary: ${annual_salary}'
+print(emp_card)
 
 # String slicing
-employee_code = 'DEV-2026-JD-001'
-department = employee_code[0:3]
-print(department)
+emp_code = 'DEV-2026-JD-001'
+dept_code = emp_code[0:3]
+print(dept_code)
 
-year_code = employee_code[4:8]
-print(year_code)
+year_part = emp_code[4:8]
+print(year_part)
 
-initials = employee_code[9:11]
-print(initials)
+init_part = emp_code[9:11]
+print(init_part)

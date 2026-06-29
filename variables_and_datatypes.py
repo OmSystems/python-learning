@@ -5,23 +5,23 @@
 # ============================================
 
 # String data type
-name = 'Alice'
-print(name, type(name))
+username = 'Alice'
+print(username, type(username))
 
 # Boolean data type
-is_student = True
-print(is_student, type(is_student))
+is_active = True
+print(is_active, type(is_active))
 
 # Integer data type
-age = 20
-print(age, type(age))
+user_age = 20
+print(user_age, type(user_age))
 
 # Float data type
-score = 80.5
-print(isinstance(score, float))
-print(score, type(score))
+test_score = 80.5
+print(isinstance(test_score, float))
+print(test_score, type(test_score))
 
 # Complex number data type
-complex_num = 3 + 4j
-print(complex_num, type(complex_num))
-print(f"Real part: {complex_num.real}, Imaginary part: {complex_num.imag}")
+complex_val = 3 + 4j
+print(complex_val, type(complex_val))
+print(f"Real part: {complex_val.real}, Imaginary part: {complex_val.imag}")
