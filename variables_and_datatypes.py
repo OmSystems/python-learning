@@ -20,3 +20,8 @@ print(age, type(age))
 score = 80.5
 print(isinstance(score, float))
 print(score, type(score))
+
+# Complex number data type
+complex_num = 3 + 4j
+print(complex_num, type(complex_num))
+print(f"Real part: {complex_num.real}, Imaginary part: {complex_num.imag}")
